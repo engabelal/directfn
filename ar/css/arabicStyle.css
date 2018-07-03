@@ -1,0 +1,182 @@
+@font-face {
+  font-family: Cabourg;
+  src: url(../fonts/Cabourg.otf);
+}
+@font-face {
+  font-family: JF-Flat;
+  src: url(../fonts/JF-Flat-regular.ttf);
+}
+@font-face {
+  font-family: Monadi;
+  src: url(../fonts/Monadi.ttf);
+}
+@font-face {
+  font-family: DroidKufi-Regular;
+  src: url(../fonts/DroidKufi-Regular.ttf);
+}
+@font-face {
+  font-family: DroidKufi-Bold;
+  src: url(../fonts/DroidKufi-Bold.ttf);
+}
+h1,
+.h1 {
+  font-family: DroidKufi-Regular;
+  text-align: right;
+}
+
+p {
+  font-family: JF-Flat;
+}
+
+@media (max-width: 768px) {
+  .small_center {
+    text-align: center;
+  }
+}
+.list-unstyled {
+  padding-right: 0;
+}
+
+header {
+  font-family: JF-Flat;
+}
+header span {
+  font-family: 'Times New Roman', Times, serif;
+}
+header .session_data {
+  text-align: right;
+}
+
+.ticker {
+  direction: ltr !important;
+}
+
+.mynavbar {
+  font-family: DroidKufi-Regular;
+}
+.mynavbar .nav-item {
+  margin-left: 35px !important;
+}
+@media (max-width: 991.98px) {
+  .mynavbar .nav-item {
+    margin-left: auto;
+  }
+}
+.mynavbar .navbar-nav {
+  margin-right: 0 !important;
+  padding-right: 0;
+}
+.mynavbar .navbar-nav li {
+  margin-right: 0;
+}
+.mynavbar .navbar-nav li .nav-link {
+  padding-right: 0;
+}
+@media (max-width: 991.98px) {
+  .mynavbar .navbar-light .navbar-nav .nav-link {
+    margin: auto;
+  }
+}
+.mynavbar .dropdown-menu {
+  left: auto;
+  right: 0;
+  text-align: right;
+  direction: rtl;
+}
+.mynavbar .dropdown-menu ul {
+  padding-right: 0;
+}
+
+.slider .carousel-item .features .carousel-caption {
+  margin-left: 25%;
+  margin-right: 50%;
+}
+.slider .carousel-item .features .carousel-caption h1 {
+  text-align: right;
+  font-size: 40px;
+  font-family: DroidKufi-Regular;
+}
+@media (max-width: 768px) {
+  .slider .carousel-item .features .carousel-caption h1 {
+    font-size: 20px;
+  }
+}
+.slider .carousel-item .features .carousel-caption ul {
+  text-align: right;
+}
+.slider .carousel-item .features .carousel-caption ul li {
+  font-size: 16px;
+  font-family: JF-Flat;
+  width: 500px;
+}
+@media (max-width: 768px) {
+  .slider .carousel-item .features .carousel-caption ul li {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .slider .carousel-item .features .carousel-caption ul li {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+.slider .carousel-item .features .carousel-caption .buttons {
+  font-family: DroidKufi-Regular;
+}
+@media (max-width: 768px) {
+  .slider .carousel-item .features .carousel-caption .buttons {
+    text-align: center;
+    font-size: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .slider .carousel-item .features .carousel-caption .buttons {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+.slider .carousel-item .features .carousel-caption .buttons .os {
+  margin-left: auto;
+}
+
+.under-slider {
+  font-family: JF-Flat;
+}
+.under-slider .content p {
+  text-align: right;
+}
+
+.welcome h1 {
+  font-family: DroidKufi-Regular;
+}
+@media (max-width: 991.98px) {
+  .welcome h1 {
+    font-size: 31px;
+    text-align: center;
+  }
+}
+.welcome .nav-item,
+.welcome .heading {
+  font-family: DroidKufi-Regular;
+}
+
+.market_announc {
+  text-align: right;
+}
+.market_announc .announcements .content {
+  font-family: DroidKufi-Regular;
+}
+
+.breadcrumb li {
+  font-family: DroidKufi-Regular;
+}
+
+.eutc h4 {
+  font-size: 15px;
+}
+
+.landing .features .feature {
+  font-family: JF-Flat;
+}
+
+/*# sourceMappingURL=arabicStyle.css.map */
